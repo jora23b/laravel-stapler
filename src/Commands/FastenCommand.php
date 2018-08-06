@@ -64,7 +64,7 @@ class FastenCommand extends Command
     /**
      * Execute the console command.
      */
-    public function build()
+    public function handle()
     {
         $this->createMigration();
     }
